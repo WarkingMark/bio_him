@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Шрифты-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--Шрифты-->
+    <title>Главная страница</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container flex-mobile">
+            <div class="header__top">
+                <div class="menu__button">
+                    <svg class = "burger-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M29.0625 20.625H0.937555C0.420034 20.625 8.01086e-05 21.045 8.01086e-05 21.5625C8.01086e-05 22.08 0.420113 22.4999 0.937555 22.4999H29.0625C29.58 22.4999 30 22.0799 30 21.5625C30 21.045 29.58 20.625 29.0625 20.625Z" fill="#0C0C0C"/>
+                        <path d="M0.937555 15.9375L29.0625 15.9375C29.58 15.9375 30 15.5174 30 15C30 14.4826 29.58 14.0625 29.0625 14.0625L0.937555 14.0625C0.420034 14.0625 8.01086e-05 14.4826 8.01086e-05 15C8.01086e-05 15.5174 0.420034 15.9375 0.937555 15.9375Z" fill="#0C0C0C"/>
+                        <path d="M0.937542 9.37494L19.6875 9.37494C20.205 9.37494 20.625 8.95491 20.625 8.43746C20.625 7.91994 20.205 7.49999 19.6875 7.49999L0.937542 7.49999C0.420021 7.49999 6.67572e-05 7.92002 6.67572e-05 8.43746C-1.14441e-05 8.95498 0.420021 9.37494 0.937542 9.37494Z" fill="#0C0C0C"/>
+                    </svg>
+                </div>
+                <div class="header__logo">
+                    <a class = "logo" href="index.html" class="logo__icon"><img src="./img/logo.jpg" alt="logo"></a>
+                    <div class="logo__text">
+                        <span>Производитель гипоаллергенной космецевтики</span>
+                        <span>Разработчик медицинских средств в России</span>
+                    </div>
+                </div>
+                <nav class="header__navigation navigation">
+                    <ul class = "navigation-items">
+                        <li class = "navigation-item">
+                            <a class = "navigation-link" href="#">О компании</a>
+                        </li>
+                        <li class = "navigation-item">
+                            <a class = "navigation-link" href="#">Оплата</a>
+                        </li>
+                        <li class = "navigation-item">
+                            <a class = "navigation-link" href="#">Доставка</a>
+                        </li>
+                        <li class = "navigation-item">
+                            <a class = "navigation-link" href="#">Контакты</a>
+                        </li>
+                        <li class = "navigation-item">
+                            <a class = "navigation-link" href="#">Новости</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger-menu">
+                    <div class="menu__box">
+                        <ul class = "burger-navigation">
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">PLATINUS</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">VOM</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">MAGI KA</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ ВОЛОС</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ ЗДОРОВЬЯ</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ КОЖИ</a></li>
+                            <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ РЕСНИЦ</a></li>
+                        </ul>
+                        <nav class="header__navigation burger-navigation">
+                            <ul class = "navigation-items">
+                                <li class = "navigation-item">
+                                    <a class = "navigation-link" href="#">О компании</a>
+                                </li>
+                                <li class = "navigation-item">
+                                    <a class = "navigation-link" href="#">Оплата</a>
+                                </li>
+                                <li class = "navigation-item">
+                                    <a class = "navigation-link" href="#">Доставка</a>
+                                </li>
+                                <li class = "navigation-item">
+                                    <a class = "navigation-link" href="#">Контакты</a>
+                                </li>
+                                <li class = "navigation-item">
+                                    <a class = "navigation-link" href="#">Новости</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <ul class = "navigation navigation-bottom">
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">PLATINUS</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">VOM</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">MAGI KA</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ ВОЛОС</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ ЗДОРОВЬЯ</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ КОЖИ</a></li>
+                    <li class = "navigation-item"><a class = "navigation-link" href="#">ДЛЯ РЕСНИЦ</a></li>
+                </ul>
+                <ul class = " header__telephone navigation">
+                    <li class = "telephone-number">8 800 550 43 13</li>
+                    <li class = "telephone-number">8 800 550 43 13</li>
+                </ul>
+                <ul class = "navigation header__icons">
+                    <li class = "navigation-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.5 4.5C7.18629 4.5 4.5 7.18629 4.5 10.5C4.5 13.8137 7.18629 16.5 10.5 16.5C13.8137 16.5 16.5 13.8137 16.5 10.5C16.5 7.18629 13.8137 4.5 10.5 4.5ZM3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5Z" fill="#0C0C0C"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7441 14.7442C15.037 14.4513 15.5119 14.4513 15.8048 14.7442L20.7803 19.7197C21.0732 20.0126 21.0732 20.4874 20.7803 20.7803C20.4874 21.0732 20.0125 21.0732 19.7196 20.7803L14.7441 15.8048C14.4513 15.5119 14.4513 15.0371 14.7441 14.7442Z" fill="#0C0C0C"/>
+                        </svg>
+                    </li>
+                    <li class = "navigation-item basket">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.1938 6.03794C19.1724 5.70328 18.8955 5.44299 18.5601 5.44299H15.2011V4.45058C15.2011 2.46327 13.3162 0.846161 11 0.846161C8.68385 0.846161 6.79901 2.46327 6.79901 4.45058V5.44299H3.44001C3.10452 5.44299 2.8277 5.70328 2.80622 6.03794L1.9047 20.4796C1.89396 20.6548 1.95593 20.8258 2.07575 20.9539C2.19557 21.0811 2.36331 21.1539 2.53849 21.1539H19.4616C19.6367 21.1539 19.8045 21.0811 19.9243 20.9539C20.0441 20.8258 20.1061 20.6548 20.0954 20.4796L19.1938 6.03794ZM8.06824 4.45058C8.06824 3.16317 9.38374 2.11539 11 2.11539C12.6163 2.11539 13.9318 3.16317 13.9318 4.45058V5.44299H8.06824V4.45058ZM6.79901 6.71222V8.09053C6.79901 8.44089 7.08326 8.72514 7.43362 8.72514C7.78398 8.72514 8.06824 8.44089 8.06824 8.09053V6.71222H13.9318V8.09053C13.9318 8.44089 14.2161 8.72514 14.5664 8.72514C14.9168 8.72514 15.2011 8.44089 15.2011 8.09053V6.71222H17.9634L18.5133 15.5126H3.48675L4.03661 6.71222H6.79901ZM3.21359 19.8846L3.43391 16.3587H18.5661L18.7865 19.8846H3.21359Z" fill="#0C0C0C"/>
+                        </svg>
+                        <div class="count-products">
+                            <span>2</span>
+                        </div>
+                    </li>
+                    <li class = "navigation-item mobile-dn">
+                        <svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="3" width="1.5" height="14" rx="0.75" fill="#0C0C0C"/>
+                            <rect x="4.5" y="9" width="1.5" height="8" rx="0.75" fill="#0C0C0C"/>
+                            <rect x="9" width="1.5" height="17" rx="0.75" fill="#0C0C0C"/>
+                            <rect x="13.5" y="5" width="1.5" height="12" rx="0.75" fill="#0C0C0C"/>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="history-page">
+            <div class="current-page">
+                <a href = "#" class = "page-name">Главная</a>
+                <div class="arrow">
+                    <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4.86725 4.17876L0.783555 0.132855C0.604366 -0.0442851 0.314035 -0.0442851 0.134392 0.132855C-0.0447973 0.309996 -0.0447973 0.597737 0.134392 0.774878L3.89419 4.49978L0.134845 8.22467C-0.0443439 8.40181 -0.0443439 8.68955 0.134845 8.86714C0.314034 9.04428 0.60482 9.04428 0.784009 8.86714L4.86771 4.82124C5.04417 4.64589 5.04417 4.35366 4.86725 4.17876Z" fill="#0C0C0C"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="current-page">
+                <a href = "#"  class = "page-name">О компании</a>
+            </div>
+        </div>
+        <section class="about">
+            <h2 class = "about__title title">О КОМПАНИИ</h2>
+            <div class=" about__description description">
+                <div class="description__section">
+                    <h3 class = "description-title">    
+                        БиоХимЭкспо / BioChimExpo
+                        Невероятное станет Очевидным!
+                    </h3>
+                    <p class = "description-paragraph">
+                        На рынке и за 8 лет получено 7 медалей за технологии, каждый из 26 товаров - уникален, нужен всем и везде, ломая стереотипы.
+                        То что производится компанией БиоХимЭкспо, не разделяет домашний уход и оказание помощи при травмировании. В 2021 году зарегистрировали пищевой комплекс с новой торговой маркой MAGI  Ka.
+                    </p>
+                    <p class = "description-paragraph">
+                        Если Вы не нашли решения для своей проблемы, пишите любой вопрос <span class = "highlighting">biochimexpo.com@gmail.com</span>
+                    </p>
+                    <p class = "description-paragraph">
+                        Можно позвонить <span class = "highlighting">8 800 550 43 13</span>, любая форма сообщения. Вам ответят в течение суток.
+                    </p>
+                    <p class = "description-paragraph">
+                        Остерегайтесь Подделок! Они беспокоят с 2014 <a href = "https://www.platinus.org/news/159" class = "highlighting">https://www.platinus.org/news/159</a>
+                    </p>
+                    <p>
+                        Наша компания производит средства по уходу за кожей лица и тела на основе гипоаллергенного генерирующего геля VOM.  Все средства для волос созданы на растворе для роста волос Platinus.  Все разработки зарекомендовали себя как высокоэффективные средства и имеют свидетельства о государственной регистрации. Подробнее <a href="https://www.platinus.org/indexpage-probe/">https://www.platinus.org/indexpage-probe/</a>
+                    </p>
+                </div>
+                <div class="description__photo">
+                    <div class="photo-item">
+                        <img class = "description-img" src="./img/about1.jpg" alt="about1">
+                    </div>
+                    <div class="photo-item">
+                        <img class = "description-img" src="./img/about2.jpg" alt="about2">
+                    </div>
+                    <div class="photo-item">
+                        <img class = "description-img" src="./img/about3.jpg" alt="about3">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ours-advantages">
+            <h2 class = "ours-advantages__title title">НАШИ ПРЕИМУЩЕСТВА</h2>
+            <div class=" ours-advantages__description description">
+                <div class="description-section">
+                    <h3 class = "description-sub-title">Торговые марки - Platinus, VOM, MAGI  Ka, Платинус</h3>
+                    <p class = "description-paragraph">
+                        Зарегистрировали торговые марки и получили декларации на все товары, исследования и патенты до 2020 г.на продукцию можно посмотреть <a href="https://www.platinus.org/indexpage-probe/">https://www.platinus.org/indexpage-probe/</a>, а с 2021 года с электронной подписью руководителя, на официальном сайте  <a href="https://pub.fsa.gov.ru/rds/declaration/view/15251822/product">https://pub.fsa.gov.ru/rds/declaration/view/15251822/product</a>  
+                    </p>
+                </div>
+                <div class="description__photo">
+                    <div class="photo-item ours-photo">
+                        <img src="./img/advantages.jpg" alt="advantages">
+                    </div>
+                </div>
+                <div class="description-section">
+                    <h3 class = "description-sub-title">Контроль качества</h3>
+                    <p class = "description-paragraph">
+                        В упаковки несколько степеней защиты: контроль вскрытия, металлизированные краски или голограммы против контрафакта.
+                        На этикетке штрихкодирование по каждому товару, указан производитель: местоположение, сайт, телефон и состав полностью -  это требования Роспотребнадзора.
+                    </p>
+                    <p class = "description-paragraph">
+                        На этикетке состав должен соответствовать содержимому, тем более с каждым годом аллергиков все больше и больше.  Всегда можно задать интересующийся вопрос производителю  biochimexpo.com@gmail.com , 24/7 вам обязательно перезвонят
+                        и проконсультируют, если вы оставите свои координаты и укажите в какое время удобно. Сейчас сделаны QR коды  на баннерах,
+                        в статьях - это тоже защита от подделок.
+                    </p>
+                    <p class = "description-paragraph">
+                        Все средства проходят трёхступенчатый контроль качества. На рекламации по таре мы отвечаем в течение нескольких часов, просьба заранее снять как вы пользовались и отправить на почту компании  biochimexpo.com@gmail.com . Это ускорит процесс принятия решения. По качеству товаров эффективность 100%, читайте как правильно применять или уточняйте в вашем случае, как лучше использовать, не всё однозначно. Обращаем ваше внимание, так как хронических форм заболеваний становится все больше, мы анализируем и вам сразу подскажем, как решить вашу проблему. Нам чем сложнее ситуация, тем быстрее виден результат.
+                    </p>
+                </div>
+                <div class="description-section">
+                    <h3 class = "description-sub-title">Инновационные технологии</h3>
+                    <p class = "description-paragraph">
+                        Производим биохимические препараты по инновационным технологиям. Дочищаем и работаем с частотой фарм. сырья, отсюда
+                        и успех по эффективности. Позиционируем свои средства как КОСМЕЦЕВТИКУ – среднее между косметикой и медициной,
+                        а именно эффективность и универсальность средств, использовать всей семьей! Удобно особенно на отдыхе, взяв 2 флакона и вы под защитой от всех неприятностей, и сможете своевременно оказать помощь не только себе и любому человеку, но и другим, нуждающимся в помощи.
+                    </p>
+                </div>
+                <div class="description-section">
+                    <h3 class = "description-sub-title">Штрихкодирование</h3>
+                    <p class = "description-paragraph">
+                        Штрихкодирование
+                        Каждый препарат включен в Международную Систему Штрихкодирования  «Юнискан/ ГС1 РУС». В этом легко убедиться
+                        <a href="https://www.platinus.org/news/233/ ">https://www.platinus.org/news/233/</a>, каждый год пролонгируется и с каждым годом добавляются новые товары.
+                    </p>
+                    <p class = "description-paragraph">
+                        Вы быстро добавите товар в свой магазин. Продукция по нашей номенклатуре будет всегда востребована, клиент всегда возвращается, когда средство заканчивается. Наши разработки уникальны по составу и эффективности. Стабильность и качество, что важно для нас!
+                    </p>
+                </div>
+                <div class="description-section">
+                    <h3 class = "description-sub-title">Опытные сотрудники</h3>
+                    <p class = "description-paragraph">
+                        Штрихкодирование
+                        Каждый препарат включен в Международную Систему Штрихкодирования  «Юнискан/ ГС1 РУС». В этом легко убедиться
+                        <a href="https://www.platinus.org/news/233/ ">https://www.platinus.org/news/233/</a>, каждый год пролонгируется и с каждым годом добавляются новые товары.
+                    </p>
+                    <p class = "description-paragraph">
+                        Наши сотрудники стажировались и работали в <span class = "highlighting-bold">США и Швеции</span>,
+                        разработки держатся в строжайшем секрете, чтобы конкуренты не смогли повторить.
+                        Работа с <span class = "highlighting-bold">Камчаткой</span>, дала новые перспективы.                
+                    </p>
+                    <p class = "description-paragraph">
+                        Компания БиоХимЭкспо не раз была отмечена медалями и кубками в номинации “Лучший товар года”, 
+                        "За инновации", “Петербургский международный конкурс здоровья”...
+                        Мы рады, что очередной раз наш продукт был оценен, как средство - одаренное с уникальными свойствами,
+                        и занял должное место на пьедестале почета.
+                        Гель VOM c бетулином выпускает компания <span class = "highlighting-bold">БиоХимЭкспо</span>, а на рынке кремов с бетулином много, но не до оценён рынком, так как частота сырья не позволяет ему показать свои возможности и композит, в который добавляется сырье, резко отличается от нас. Компания <span class = "highlighting-bold">БиоХимЭкспо</span> в основу генерирующего геля VOM входит – Бетулин, входящий в состав экстракта бересты березы с частотой 98%, как для медицинских препаратов. Мы пошли дальше и показываем, что в торговой марке MAGI  Ka   Mega Complex,он используется в пищевом комплексе - природный иммуномодулятор. А  антивозрастные
+                        средства:<span class = "highlighting-bold">Гель с бетулином</span> – для кожи вокруг глаз, лица, шеи и зоны декольте - Сильнейший лифтинг и сужает поры, придает коже матирующий эффект, рекомендуется для жирной и комбинированной кожи.
+                        Порошок <span class = "highlighting-bold">бетулиновая кислота </span>– сильнейший природный антиоксидант, в небольшом количестве он присутствует в бетулине. Мощнейший регенератор кожного покрова. Замедляет <span class = "highlighting-bold">процессы</span> старения кожи и мутационных изменений в клетках. Подавляет процессы кислородного голодания. <span class = "highlighting-bold">Бетулиновая кислота</span> – это активное вещество, входящее в состав экстракта бересты берёзы, которое стимулирует выработку коллагена -антивозрастные действие.
+                    </p>
+                    <p class = "description-paragraph">
+                        Компания <span class = "highlighting-bold">БиоХимЭкспо</span> была награждена за эту работу : <span class = "highlighting-bold">“Технология выделения бетулина и бетулиновой кислоты ...” и получила очередную золотую медаль!</span>
+                    </p>
+                    <p class = "description-paragraph">
+                        Компания <span class = "highlighting-bold">БиоХимЭкспо</span> или <span class = "highlighting-bold">BioChimExpo</span> постоянно участвует в выставках, где редкая возможность получить подарок или приобрести товар по цене производителя, счастливчики получают подарки от руководителя Васильевой Т.В.
+                    </p>
+                    <p class = "description-paragraph">
+                        В рамках выставки всегда проходят конкурсы, а теперь это возможно через интернет площадку, где компания  <span class = "highlighting-bold">БиоХимЭкспо</span> поощряет активных пользователей, предоставляя свои новые разработки, которые уже давно получают только положительное общественное признание.
+                    </p>
+                    <p class = "description-paragraph">
+                        Хочется отдельно отметить получение золотой медали - применяемого при разработке и производстве защитного раствора <span class = "highlighting">«Platinus Gemo»</span>, полное название конкурсной работы  « Получения активного вещества во время гидролиза древесных субстанций с точечным внедрением в них биологически активных компонентов для улучшенного гемо статического действия.
+                    </p>
+                    <p class = "description-paragraph">
+                        <span class = "highlighting">«Platinus Gemo»</span> для удобства выпускается в растворе - от геморроя  - №1 по своей эффективности! Применяется в защите и профилактике геморроидальных узлов при варикозе вен.
+                    </p>
+                    <p class = "description-paragraph">
+                        Раствор <span class = "highlighting">«Platinus Gemo»</span> не являясь медицинским средством, своим натуральным составом не имеет аналогов и конкурентов.
+                    </p>
+                    <p class = "description-paragraph">
+                        Это <span class = "highlighting-bold">удобно для распространителей, не требуется лицензии</span> при геморрое и варикозе вен.  
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="service">
+                <div class="service-img">
+                    <img class = "img-item" src="./img/services1.svg" alt="Доставка">
+                </div>
+                <div class="service-description">
+                    <span class = "services-title">Доставка</span>
+                    <span class = "services-sub-title">Бесплатно от 30 000 ₽</span>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img class = "img-item" src="./img/services2.svg" alt="Благотворительный фон">
+                </div>
+                <div class="service-description">
+                    <span class = "services-title">Благотворительный фонд</span>
+                    <a class = "services-sub-title" href = "#">Узнать подробнее</a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="service-img">
+                    <img class = "img-item" src="./img/services3.svg" alt="Бесплатная консультация">
+                </div>
+                <div class="service-description">
+                    <span class = "services-title">Бесплатная консультация</span>
+                    <span class = "services-sub-title">В удобное время</span>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-navigation">
+                <div class="footer-info">
+                    <div class="info-title">
+                        <h2>BIO CHIM EXPO</h2>
+                        <span class = "info-sub-title">Научно-производственное Объединение</span>
+                    </div>
+                    <div class="footer__numbers">
+                        <span class = "footer-number">8 800 550 43 13</span>
+                        <span class = "footer-number">8 800 550 43 13</span>
+                    </div>
+                    <div class="footer-email">
+                        <div class="footer__icon">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 25C19.4036 25 25 19.4036 25 12.5C25 5.59644 19.4036 0 12.5 0C5.59644 0 0 5.59644 0 12.5C0 19.4036 5.59644 25 12.5 25Z" fill="#0C0C0C"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.4999 13.9424L19.7115 7.69238H5.28839L12.4999 13.9424ZM10.5521 13.2505L12.4999 14.8493L14.4173 13.2505L19.7115 17.7885H5.28839L10.5521 13.2505ZM4.80762 17.3078V8.17315L10.0961 12.7405L4.80762 17.3078ZM20.1922 17.3078V8.17315L14.9038 12.7405L20.1922 17.3078Z" fill="white"/>
+                            </svg> 
+                        </div>
+                        <p class = "email-text">biochimexpo.com@gmail.com</p>
+                    </div>
+                    <div class="footer__social">
+                        <span class = "social__title">Мы в соц.сетях:</span>
+                    </div>
+                    <ul class = "social-list social">
+                        <li class = "social-item">
+                            <a href="#">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.3576 20.7723C19.0862 20.7723 20.4876 19.3709 20.4876 17.6422C20.4876 15.9136 19.0862 14.5122 17.3576 14.5122C15.6289 14.5122 14.2275 15.9136 14.2275 17.6422C14.2275 19.3709 15.6289 20.7723 17.3576 20.7723Z" fill="#0C0C0C"/>
+                                    <path d="M21.2699 9.95947H13.4448C12.3066 9.95947 11.3107 10.3152 10.6705 10.9554C10.0302 11.5956 9.67456 12.5915 9.67456 13.7297V21.5548C9.67456 22.693 10.0302 23.689 10.7416 24.4003C11.453 25.0406 12.3778 25.3963 13.516 25.3963H21.2699C22.4081 25.3963 23.404 25.0406 24.0443 24.4003C24.7557 23.7601 25.1113 22.7642 25.1113 21.626V13.8009C25.1113 12.6627 24.7557 11.7379 24.1154 11.0265C23.404 10.3152 22.4793 9.95947 21.2699 9.95947ZM17.3574 22.4796C14.6542 22.4796 12.5201 20.2744 12.5201 17.6423C12.5201 14.9391 14.7253 12.805 17.3574 12.805C19.9895 12.805 22.2659 14.9391 22.2659 17.6423C22.2659 20.3455 20.0606 22.4796 17.3574 22.4796ZM22.4081 13.7297C21.7679 13.7297 21.2699 13.2318 21.2699 12.5915C21.2699 11.9513 21.7679 11.4534 22.4081 11.4534C23.0484 11.4534 23.5463 11.9513 23.5463 12.5915C23.5463 13.2318 23.0484 13.7297 22.4081 13.7297Z" fill="#0C0C0C"/>
+                                    <path d="M17.4998 0C7.8251 0 0 7.8251 0 17.4998C0 27.1744 7.8251 34.9995 17.4998 34.9995C27.1744 34.9995 34.9995 27.1744 34.9995 17.4998C35.0707 7.8251 27.1744 0 17.4998 0ZM26.8187 21.6257C26.8187 23.2619 26.2496 24.6846 25.2537 25.6805C24.2578 26.6765 22.8351 27.1744 21.27 27.1744H13.5161C11.9511 27.1744 10.5283 26.6765 9.53239 25.6805C8.46533 24.6846 7.96737 23.2619 7.96737 21.6257V13.8006C7.96737 10.5283 10.1726 8.25192 13.5161 8.25192H21.3412C22.9773 8.25192 24.3289 8.82102 25.3249 9.81694C26.3208 10.8129 26.8187 12.1645 26.8187 13.8006V21.6257V21.6257Z" fill="#0C0C0C"/>
+                                </svg> 
+                            </a>
+                        </li>
+                        <li class = "social-item">
+                            <a href="#">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 35C27.165 35 35 27.165 35 17.5C35 7.83502 27.165 0 17.5 0C7.83502 0 0 7.83502 0 17.5C0 27.165 7.83502 35 17.5 35Z" fill="#0C0C0C"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.853 27.6001V17.4995H12.8003V14.1514H14.853V12.1266C14.853 9.39562 15.6695 7.42627 18.6598 7.42627H22.2171V10.7675H19.7122C18.4578 10.7675 18.172 11.601 18.172 12.4739V14.1514H22.0322L21.5053 17.4995H18.172V27.6001H14.853Z" fill="white"/>
+                                </svg> 
+                            </a>
+                        </li>
+                        <li class = "social-item">
+                            <a href="#">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5 0C7.83501 0 0 7.83501 0 17.5C0 27.165 7.83501 35 17.5 35C27.165 35 35 27.165 35 17.5C35 7.83501 27.165 0 17.5 0ZM26.8217 23.4404H24.601C24.3605 23.4407 24.123 23.3868 23.9063 23.2826C23.6895 23.1785 23.4989 23.0268 23.3488 22.8389C22.6829 22.0028 21.3709 20.5203 19.9934 19.8835C19.9136 19.8461 19.8257 19.8295 19.7378 19.8351C19.6499 19.8408 19.5648 19.8684 19.4904 19.9156C19.4161 19.9629 19.3548 20.028 19.3123 20.1052C19.2697 20.1824 19.2474 20.269 19.2472 20.3571V22.5533C19.2472 22.6698 19.2243 22.7852 19.1797 22.8928C19.1352 23.0004 19.0699 23.0982 18.9875 23.1806C18.9051 23.263 18.8074 23.3283 18.6998 23.3729C18.5921 23.4175 18.4768 23.4404 18.3603 23.4404H17.3335C15.9981 23.4404 13.1225 22.6276 10.8312 19.2897C8.87886 16.446 8.00857 14.2421 7.50107 12.4551C7.47157 12.3504 7.46674 12.2403 7.48696 12.1334C7.50718 12.0264 7.55191 11.9257 7.61762 11.839C7.68334 11.7522 7.76826 11.6819 7.86572 11.6335C7.96318 11.5852 8.07053 11.56 8.17934 11.5601H10.4258C10.6499 11.5599 10.8681 11.6321 11.0479 11.7658C11.2277 11.8996 11.3596 12.0879 11.4238 12.3026C11.8416 13.6998 12.9235 16.7138 14.8361 18.2147C14.8944 18.2607 14.9645 18.2893 15.0383 18.2973C15.1121 18.3053 15.1867 18.2924 15.2535 18.26C15.3204 18.2277 15.3767 18.1771 15.4162 18.1142C15.4557 18.0513 15.4766 17.9786 15.4767 17.9043V14.3862C15.4767 13.6909 15.1754 12.9953 14.7051 12.4516C14.6373 12.3736 14.5934 12.2778 14.5786 12.1756C14.5637 12.0733 14.5786 11.969 14.6215 11.875C14.6643 11.781 14.7333 11.7013 14.8202 11.6454C14.9071 11.5895 15.0082 11.5598 15.1115 11.5598H18.575C18.7534 11.5598 18.9244 11.6306 19.0505 11.7567C19.1767 11.8828 19.2475 12.0539 19.2475 12.2322V16.9712C19.2475 17.0398 19.2664 17.1071 19.3021 17.1657C19.3378 17.2243 19.389 17.2719 19.4499 17.3034C19.5109 17.3348 19.5793 17.3489 19.6478 17.344C19.7162 17.3392 19.782 17.3156 19.8379 17.2758C20.4736 16.8233 21.0181 16.1548 21.5189 15.4033C22.1492 14.458 22.9183 12.8954 23.3041 12.0845C23.3788 11.9274 23.4965 11.7947 23.6436 11.7018C23.7906 11.6089 23.961 11.5596 24.135 11.5596H26.585C26.6873 11.5595 26.7879 11.5856 26.8773 11.6353C26.9667 11.6851 27.0419 11.7568 27.0958 11.8438C27.1497 11.9307 27.1805 12.03 27.1853 12.1322C27.1901 12.2344 27.1687 12.3361 27.1232 12.4277C26.5049 13.6678 25.3008 15.9426 24.1676 17.2773C24.0054 17.4692 23.926 17.7177 23.9468 17.9681C23.9676 18.2185 24.0869 18.4505 24.2786 18.613C25.0172 19.2441 26.1703 20.4109 27.4135 22.3543C27.4821 22.4606 27.5207 22.5835 27.5254 22.71C27.5301 22.8365 27.5006 22.9619 27.44 23.073C27.3795 23.1842 27.2901 23.2769 27.1813 23.3416C27.0725 23.4062 26.9483 23.4404 26.8217 23.4404V23.4404Z" fill="#0C0C0C"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class = "social-item">
+                            <a href="#">
+                                <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5 0C27.1585 0 35 7.8415 35 17.5C35 27.1585 27.1585 35 17.5 35C7.8415 35 0 27.1585 0 17.5C0 7.8415 7.8415 0 17.5 0ZM27.9805 12.2348C27.729 11.2936 26.9878 10.5525 26.0466 10.3009C24.3405 9.84375 17.5 9.84375 17.5 9.84375C17.5 9.84375 10.6595 9.84375 8.95337 10.3009C8.0124 10.5525 7.27104 11.2936 7.01948 12.2348C6.5625 13.9407 6.5625 17.5001 6.5625 17.5001C6.5625 17.5001 6.5625 21.0594 7.01948 22.7652C7.27104 23.7064 8.0124 24.4478 8.95337 24.6993C10.6595 25.1563 17.5 25.1562 17.5 25.1562C17.5 25.1562 24.3405 25.1563 26.0466 24.6993C26.9878 24.4478 27.729 23.7064 27.9805 22.7652C28.4375 21.0594 28.4375 17.5001 28.4375 17.5001C28.4375 17.5001 28.4375 13.9407 27.9805 12.2348ZM15.3124 20.7815V14.2188L20.9956 17.5001L15.3124 20.7815V20.7815Z" fill="#0C0C0C"/>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reference-information">
+                    <h2 class = "footer__title-category">Справочная информация</h2>
+                    <div class="accardeon">
+                        <div class="accardeon-text">
+                            <h2 class = "footer__title-category">Справочная информация</h2>
+                            <svg class = "accardeon-arrow" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.4997 7.7876L13.7933 1.25369C14.0689 0.966986 14.0689 0.502455 13.7933 0.215027C13.5178 -0.0716756 13.0702 -0.0716756 12.7946 0.215027L7.00035 6.2307L1.20607 0.215752C0.930513 -0.0709502 0.482916 -0.0709502 0.206664 0.215752C-0.0688878 0.502455 -0.0688878 0.967711 0.206664 1.25441L6.5003 7.78833C6.77305 8.07068 7.22764 8.07068 7.4997 7.7876Z" fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <ul class = "footer-list">
+                            <li class = "list-item"><a class = "list-link" href = "#">Вопрос-ответ</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Новости</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Возврат товара</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Стартап</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Благотворительный фонд</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Сертификаты</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Наши партнёры</a></li>
+                        </ul>
+                    </div>
+                    <ul class = "footer-list">
+                        <li class = "list-item"><a class = "list-link" href = "#">Вопрос-ответ</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Новости</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Возврат товара</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Стартап</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Благотворительный фонд</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Сертификаты</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Наши партнёры</a></li>
+                    </ul>
+                </div>
+                <div class="our-products">
+                    <h2 class = "footer__title-category">Наша информация</h2>
+                    <div class="accardeon">
+                        <div class="accardeon-text">
+                            <h2 class = "footer__title-category">Наша продукция</h2>
+                            <svg class = "accardeon-arrow" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.4997 7.7876L13.7933 1.25369C14.0689 0.966986 14.0689 0.502455 13.7933 0.215027C13.5178 -0.0716756 13.0702 -0.0716756 12.7946 0.215027L7.00035 6.2307L1.20607 0.215752C0.930513 -0.0709502 0.482916 -0.0709502 0.206664 0.215752C-0.0688878 0.502455 -0.0688878 0.967711 0.206664 1.25441L6.5003 7.78833C6.77305 8.07068 7.22764 8.07068 7.4997 7.7876Z" fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <ul class = "footer-list">
+                            <li class = "list-item"><a class = "list-link" href = "#">PLATINUS</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">VOM</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">MAGI KA</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Стартап</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Для волос</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Для здоровья</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Для кожи</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Для здоровья</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Лучшие товары</a></li>
+                        </ul>
+                    </div>
+                    <ul class = "footer-list">
+                        <li class = "list-item"><a class = "list-link" href = "#">PLATINUS</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">VOM</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">MAGI KA</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Стартап</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Для волос</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Для здоровья</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Для кожи</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Для здоровья</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Лучшие товары</a></li>
+                    </ul>
+                </div>
+                <div class="buyers">
+                    <h2 class = "footer__title-category">Покупателю</h2>
+                    <div class="accardeon">
+                        <div class="accardeon-text">
+                            <h2 class = "footer__title-category">Покупателю</h2>
+                            <svg class = "accardeon-arrow" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.4997 7.7876L13.7933 1.25369C14.0689 0.966986 14.0689 0.502455 13.7933 0.215027C13.5178 -0.0716756 13.0702 -0.0716756 12.7946 0.215027L7.00035 6.2307L1.20607 0.215752C0.930513 -0.0709502 0.482916 -0.0709502 0.206664 0.215752C-0.0688878 0.502455 -0.0688878 0.967711 0.206664 1.25441L6.5003 7.78833C6.77305 8.07068 7.22764 8.07068 7.4997 7.7876Z" fill="#6F6F6F"/>
+                            </svg>
+                        </div>
+                        <ul class = "footer-list">
+                            <li class = "list-item"><a class = "list-link" href = "#">Примеры использования</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Каталог</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">О компании</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Оплата</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Доставка</a></li>
+                            <li class = "list-item"><a class = "list-link" href = "#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <ul class = "footer-list">
+                        <li class = "list-item"><a class = "list-link" href = "#">Примеры использования</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Каталог</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">О компании</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Оплата</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Доставка</a></li>
+                        <li class = "list-item"><a class = "list-link" href = "#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="copyright alight-center">
+                    <p>Все права защищены © <span class = "highlighting-bold">2021 БиоХимЭкспо</span></p>
+                </div>
+                <div class="agreement alight-center">
+                    <a href = "#">Соглашение об использовании сайта</a>
+                </div>
+                <div class="cards alight-center">
+                    <img src="./img/cards.jpg" alt="Почта">
+                </div>
+                <div class="dev-site alight-center">
+                    <p>Разработка сайта <span class = "digital-soft">DIGITAL SOFT</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <!--BODY POS:FIXED и BURGER:ACTIVE=)-->
+</body>
+</html>
